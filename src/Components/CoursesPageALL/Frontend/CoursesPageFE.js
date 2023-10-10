@@ -14,7 +14,7 @@ export default function CoursesPageFE(){
         <>
             <NavBar/>
 
-        <div className='forceMiddle'>
+        <div className='forceMiddle2'>
 
 
             <div className="CoursesPageContainer">
@@ -24,26 +24,23 @@ export default function CoursesPageFE(){
                 />
                 <CoursesPageBodyProps
                     //CoursesPagetext
-                    CoursesPagetext=' This is a course in Product Design using Figma as your main tool for Beginners requesting a
-                        full concentration from students. This is so well detailed starting from how to install Figma software even for those with
-                        zero knowledge in design. There would be series of live sections, quizzes and examinations as you partake in this course.
-                        You will also be issued a certificate at the end of this course.'
+                    CoursesPagetext=' Are you ready to dive into the exciting world of frontend web development? Our comprehensive frontend development course is designed to equip you with the skills and knowledge you need to become a proficient frontend developer. Whether youre a beginner looking to start your web development journey or an experienced developer aiming to enhance your frontend skills, this course has something for everyone.'
 
 
                     //CoursesPagelist1
-                    one='Understanding Figma tools'
-                    two='Design Thinking'
-                    three='User Research'
-                    four='User Experience'
-                    five='User Interface Design'
-                    six='UX Deliverables'
-                    seven='Case Studies and UX Portfolios'
+                    one='Introduction to Frontend Development'
+                    two='HTML - Building the Structure'
+                    three='CSS - Styling Your Web Pages'
+                    four='Responsive Web Design'
+                    five='JavaScript - Adding Interactivity'
+                    six='JavaScript - Advanced Concepts'
+                    seven='Version Control with Git'
                     eight='Designing with Figma'
-                    nine='Wireframing'
+                    nine='Frontend Build Tools'
                     ten='Building Style Guides & Design Systems'
                     ele='Understanding Responsive Designs'
-                    twel='Prototyping'
-                    thirt='UX Documentation & Design Hand off'
+                    twel='Frontend Frameworks'
+                    thirt='Web Accessibility and SEO'
 
                     //CoursesPagelist2
                     fourt='Internet Connectivity'

@@ -24,7 +24,8 @@ import HelpSupport from "./Components/PolicyPage/HelpSupport";
 
 function App() {
     const checkLocalStorage = localStorage.getItem("ent");
-    const isAuthenticated = checkLocalStorage === null || checkLocalStorage === "";
+    const isAuthenticated = false
+        // checkLocalStorage === null || checkLocalStorage === "";
 
     return (
         <Router>
@@ -38,7 +39,7 @@ function App() {
                 <Route exact path="/aboutuspage" element={<AboutUs />} />
                 <Route exact path="/helpSupportpage" element={<HelpSupport />} />
                 <Route exact path="/passwordreset" element={<PasswordReset />} />
-                <Route exact path="/videopage" element={<VideoPage />} />
+                <Route exact path="/video/:videoId/:videoTitle" element={<VideoPage />} />
                 <Route
                     exact
                     path="/createpassword/:uidb64/:token"

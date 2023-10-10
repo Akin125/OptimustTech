@@ -23,17 +23,11 @@ export default function SignUp() {
     const[lowerchar, setLowerchar]= useState(true)
     const[genderDropDown, setGenderDropDown]= useState(false)
     const[handleErrror, setHandleErrror]= useState('')
-    //
-    // const storedName = localStorage.getItem("fullname");
-    // const storedUsername = localStorage.getItem("username");
-    // const storedDOB = localStorage.getItem("DOB");
-    // const storedGender = localStorage.getItem("gender");
-    // const storedWhatsappNum = localStorage.getItem("whatsappNum");
-    // const storedEmail = localStorage.getItem("email");
+
 
     const [name, setName] = useState( '')
     const [username, setUsername] = useState(  '')
-  //  const [surname, setSurname] = useState(() => localStorage.getItem("surname") || '')
+
     const [date_of_birth, setDate_of_birth] = useState(  '')
     const [gender, setGender] = useState( '')
     const [whatsapp_number, setWhatsapp_number] = useState('')

@@ -38,7 +38,7 @@ export default function Footer(){
                             </Link>
 
                                 <a className='link-d ffs'
-                                   href="https://wa.me/message/6PVZWPUTB6KSN1">
+                                   href="">
                                     <li>Contact Us</li>
                                 </a>
 
@@ -62,13 +62,13 @@ export default function Footer(){
 
                         <ul>
                             <a className='link-d ffs'
-                               href="https://instagram.com/starpenzu_tech_academy?igshid=OGY3MTU3OGY1Mw==">
+                               href="">
                                 <li>Instagram</li>
                             </a>
-                            <a className='link-d ffs' href="https://www.facebook.com/StarpenzuAcademy">
+                            <a className='link-d ffs' href="">
                                 <li>Facebook</li>
                             </a>
-                            <a className='link-d ffs' href="https://www.linkedin.com/mwlite/company/starpenzu">
+                            <a className='link-d ffs' href="">
                                 <li>Linkedin</li>
                             </a>
                             <li>Email</li>
@@ -118,9 +118,7 @@ export default function Footer(){
                         <Link onClick={scrollToTop} to='/signup' className='link-d ffs'>
                             <li>Register</li>
                         </Link>
-                        <Link className='link-d ffs'>
-                            <li onClick={handleLogout}>Logout</li>
-                        </Link>
+
                     </ul>
                 </div>
 
@@ -129,13 +127,13 @@ export default function Footer(){
 
                     <ul>
                         <a className='link-d ffs'
-                           href="https://instagram.com/starpenzu_tech_academy?igshid=OGY3MTU3OGY1Mw==">
+                           href="">
                             <li>Instagram</li>
                         </a>
-                        <a className='link-d ffs' href="https://www.facebook.com/StarpenzuAcademy">
+                        <a className='link-d ffs' href="">
                             <li>Facebook</li>
                         </a>
-                        <a className='link-d ffs' href="https://www.linkedin.com/mwlite/company/starpenzu">
+                        <a className='link-d ffs' href="">
                             <li>Linkedin</li>
                         </a>
                         <li>Email</li>

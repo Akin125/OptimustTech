@@ -18,7 +18,7 @@ export default function PrivacyPage(){
             <div className="privacyBody">
                 <p className="privacyMain">Effective Date: 1st Of June 2023 </p>
 
-                <p className="privacyMain">At Starpenzu Tech Academy, we are
+                <p className="privacyMain">At OptimustTechAcademy, we are
                     committed to protecting the privacy and personal information
                     of our users. This Privacy Policy outlines how we collect,
                     use, disclose, and safeguard the information you provide
@@ -83,7 +83,7 @@ export default function PrivacyPage(){
                 <p className="privacyHead">Contact Us:</p>
 
                 <p className="privacyMain"> - If you have any questions, concerns, or requests regarding this Privacy
-                    Policy or the privacy practices at Starpenzu Tech Academy, please contact us at Starpenzu@gmail.com.
+                    Policy or the privacy practices at OptimustTechAcademy, please contact us at OptimustTechAcademy@gmail.com.
                 </p>
 
                 <p className="privacyMain"> By using our services, you acknowledge that you have read and

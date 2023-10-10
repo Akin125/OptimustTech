@@ -13,7 +13,7 @@ export default function CoursesPageDjango(){
     return(
         <>
                     <NavBar/>
-                <div className='forceMiddle'>
+                <div className='forceMiddle2'>
                     <div className="CoursesPageContainer">
                         <CoursesPageHeaderProps
                             CoursesPagetitle='Backend Web Development (Python & Django)'
@@ -21,30 +21,26 @@ export default function CoursesPageDjango(){
                         />
                         <CoursesPageBodyProps
                             //CoursesPagetext
-                                    CoursesPagetext=' This is a course in Product Design using Figma as your main tool for Beginners requesting a
-                                full concentration from students. This is so well detailed starting from how to install Figma software even for those with
-                                zero knowledge in design. There would be series of live sections, quizzes and examinations as you partake in this course.
-                                You will also be issued a certificate at the end of this course.'
+                                    CoursesPagetext=' Are you ready to embark on a journey into the world of web development with Django? Look no further! Our Django course is designed to equip you with the knowledge and skills you need to become a proficient Django developer. Whether youre a beginner or an experienced developer looking to expand your toolkit, this course has something for everyone.'
 
 
                                     //CoursesPagelist1
-                                    one='Understanding Figma tools'
-                                    two='Design Thinking'
-                                    three='User Research'
-                                    four='User Experience'
-                                    five='User Interface Design'
-                                    six='UX Deliverables'
-                                    seven='Case Studies and UX Portfolios'
-                                    eight='Designing with Figma'
-                                    nine='Wireframing'
-                                    ten='Building Style Guides & Design Systems'
-                                    ele='Understanding Responsive Designs'
-                                    twel='Prototyping'
-                                    thirt='UX Documentation & Design Hand off'
+                                    one='Introduction to python'
+                                    two='Introduction to Django'
+                                    three='Building Your First Django App'
+                                    four='Working with Databases'
+                                    five='Building User Authentication'
+                                    six='Creating RESTful APIs'
+                                    seven='Frontend Development with Django'
+                                    eight='Testing and Deployment'
+                                    nine=' Advanced Django Topics'
+                                    ten='Real-World Projects'
+                                    ele='Career and Freelancing'
+                                    
 
                                     //CoursesPagelist2
                                     fourt='Internet Connectivity'
-                                    fivt='At Least a 4GB RAM Laptop'
+                                    fivt='At Least a 8GB RAM Laptop'
                                     sixt='A Pen and Jotter for Note Taking'
                                     sevent='Your Concentration'
 

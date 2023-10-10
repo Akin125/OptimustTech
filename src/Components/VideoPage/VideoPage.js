@@ -2,31 +2,50 @@ import React from 'react'
 import NavBar from "../Navbar/NavBar";
 import './VideoPageStyle.css'
 import Footer from "../Footer/Footer";
+import ReactPlayer from 'react-player';
+import { useParams } from 'react-router-dom';
 
 export default function VideoPage(){
+    const { videoId } = useParams();
+    const { videoTitle } = useParams();
+    const goBack = () =>{
+        window.history.back();
+
+        setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 10);
+    }
+
     return (
         <>
             <NavBar/>
             <div className="videoPageCont">
                 <div className="videoPageContHeader">
                     <div className="backArrowCont">
-                        <img src="https://res.cloudinary.com/do5wu6ikf/image/upload/v1683922753/starpenzu/Vector_r4aqp6.svg" alt=""/>
+                        <img src="https://res.cloudinary.com/do5wu6ikf/image/upload/v1683922753/starpenzu/Vector_r4aqp6.svg" onClick={goBack} alt=""/>
                     </div>
 
                     <div className="videoPageContText">
                         <div className="videoPageContHeaderText">
-                            Learn Figma: Design Essentials-  UI/UX Design
+                            {videoTitle}
                         </div>
 
                         <div className="videoPageContSubText">
-                            Downloading and Installation of Figma on your PC
+                            {videoTitle}
                         </div>
                     </div>
                 </div>
 
                 <div className="videoCont">
                     <div className="mainVid">
-                        <div>video</div>
+
+                            <ReactPlayer
+                            url={`https://www.youtube.com/watch?v=${videoId}`}
+                            controls={true}
+                            dark={true}
+                            width="100%"
+                            height="100%"
+                        />
                     </div>
                 </div>
 
@@ -36,34 +55,35 @@ export default function VideoPage(){
                     </div>
 
                     <div className="aboutVideoSubText">
-                        In this Video, you will learn how to download Figma Software Application on your PC or Mac.
+                        {videoTitle}
+
                     </div>
 
                 </div>
 
-                <div className="progressBtnCont">
+                {/*<div className="progressBtnCont">*/}
 
-                <div className="progressBtn">
-                    <div className="prevBtn">
-                        <span className='arrowBackk'>
-                           <img src="https://res.cloudinary.com/do5wu6ikf/image/upload/v1683922753/starpenzu/Vector_r4aqp6.svg" alt=""/>
-                        </span>
-                        <div>
-                        Previous Video
-                        </div>
-                    </div>
-                    <div className="NextBtn">
-                        <div>
-                        Next Video
-                        </div>
+                {/*<div className="progressBtn">*/}
+                {/*    <div className="prevBtn">*/}
+                {/*        <span className='arrowBackk'>*/}
+                {/*           <img src="https://res.cloudinary.com/do5wu6ikf/image/upload/v1683922753/starpenzu/Vector_r4aqp6.svg" alt=""/>*/}
+                {/*        </span>*/}
+                {/*        <div>*/}
+                {/*        Previous Video*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*    <div className="NextBtn">*/}
+                {/*        <div>*/}
+                {/*        Next Video*/}
+                {/*        </div>*/}
 
-                        <span className='arrowForww'>
-                           <img src="https://res.cloudinary.com/do5wu6ikf/image/upload/v1683922753/starpenzu/Vector_r4aqp6.svg" alt=""/>
+                {/*        <span className='arrowForww'>*/}
+                {/*           <img src="https://res.cloudinary.com/do5wu6ikf/image/upload/v1683922753/starpenzu/Vector_r4aqp6.svg" alt=""/>*/}
 
-                        </span>
-                    </div>
-                </div>
-                </div>
+                {/*        </span>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+                {/*</div>*/}
 
             </div>
             <Footer/>

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 export default function CoursesPageContentProps({ courses }) {
     const [openAccordions, setOpenAccordions] = React.useState([]);
 
@@ -12,6 +12,11 @@ export default function CoursesPageContentProps({ courses }) {
             }
         });
     }
+
+    const scrollToTop = () => {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    };
+
 
     return (
         <>
@@ -27,13 +32,18 @@ export default function CoursesPageContentProps({ courses }) {
                     {openAccordions.includes(index) && (
                         <div className="accordionContents">
                             {course.stages.map((stage, stageIndex) => (
-                                <div className="accordionContentsLists" key={stageIndex}>
+                                <Link className='dddddddddd'
+                                    to={`/video/${course.videoIds[stageIndex]}/${course.title}`}
+                                    key={stageIndex}>
+                                <div className="accordionContentsLists dddddddddd" onClick={scrollToTop}  key={stageIndex}>
                                     <div className='makeFlex'>
                                         <img id='mag' src="https://res.cloudinary.com/do5wu6ikf/image/upload/v1686285838/starpenzu/youtube_od2mnk.svg" alt=""/>
                                         {stage}
                                     </div>
                                     {course.locked && <img  className='icall' src={course.imgLock} alt="" />}
                                 </div>
+                                </Link>
+
                             ))}
                         </div>
                     )}

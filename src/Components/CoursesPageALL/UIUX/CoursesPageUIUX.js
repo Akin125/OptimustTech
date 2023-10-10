@@ -13,7 +13,7 @@ export default function CoursesPageUIUX(){
     return(
              <>
                     <NavBar/>
-                <div className='forceMiddle'>
+                <div className='forceMiddle2'>
                     <div className="CoursesPageContainer">
                         <CoursesPageHeaderProps
                             CoursesPagetitle='Learn Figma: Design Essentials-  UI/UX Design'

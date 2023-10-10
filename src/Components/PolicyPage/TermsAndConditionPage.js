@@ -16,9 +16,9 @@ export default function TermsAndConditionPage(){
 
 
             <div className="privacyBody">
-                <p className="privacyMain">Effective Date: 1st Of June 2023 </p>
+                <p className="privacyMain">Effective Date: 1st Of October 2023 </p>
 
-                <p className="privacyMain">These Terms & Conditions govern your use of Starpenzu Tech Academy's website,
+                <p className="privacyMain">These Terms & Conditions govern your use of OptimustTechAcademy's website,
                     services, and any other interactions with us. By accessing or using our services, you agree to
                     comply with and be bound by these terms. If you do not agree with any part of these terms, please
                     refrain from using our services.
@@ -38,7 +38,7 @@ export default function TermsAndConditionPage(){
                 <p className="privacyHead">Intellectual Property:</p>
 
                 <p className="privacyMain">- All content on our website, including text,
-                    graphics, logos, images, videos, and software, is the property of Starpenzu Tech Academy and
+                    graphics, logos, images, videos, and software, is the property of OptimustTechAcademy and
                     protected by intellectual property laws.</p>
 
                 <p className="privacyMain">
@@ -53,7 +53,7 @@ export default function TermsAndConditionPage(){
                     share content, such as comments, feedback, or project submissions, through our services.   </p>
 
                 <p className="privacyMain">
-                    - By submitting content, you grant Starpenzu Tech Academy a non-exclusive, royalty-free,
+                    - By submitting content, you grant OptimustTechAcademy a non-exclusive, royalty-free,
                     perpetual, worldwide license to use, display, modify, and distribute your content for the
                     purposes of providing and promoting our services.
                 </p>
@@ -67,14 +67,14 @@ export default function TermsAndConditionPage(){
                 <p className="privacyHead">Third-Party Links:</p>
 
                 <p className="privacyMain">- Our services may contain links to third-party websites or services
-                    that are not owned or controlled by Starpenzu Tech Academy.</p>
+                    that are not owned or controlled by OptimustTechAcademy.</p>
 
                 <p className="privacyMain">- We do not endorse or assume any responsibility for the content,
                     privacy practices, or actions of third-party websites. </p>
 
                 <p className="privacyHead">Limitation of Liability:</p>
 
-                <p className="privacyMain"> - Starpenzu Tech Academy, its affiliates,
+                <p className="privacyMain"> - OptimustTechAcademy, its affiliates,
                     partners, and employees shall not be liable for any direct, indirect, incidental, consequential,
                      or exemplary damages arising out of your use of our services. </p>
 
@@ -93,7 +93,7 @@ export default function TermsAndConditionPage(){
                 <p className="privacyHead">Contact Us:</p>
 
                 <p className="privacyMain"> - If you have any questions, concerns, or requests regarding this Privacy
-                    Policy or the privacy practices at Starpenzu Tech Academy, please contact us at Starpenzu@gmail.com.
+                    Policy or the privacy practices at OptimustTechAcademy, please contact us at Starpenzu@gmail.com.
                 </p>
 
                 <p className="privacyMain"> By using our services, you acknowledge that you have read and

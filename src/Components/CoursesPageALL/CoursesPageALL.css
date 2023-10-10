@@ -1,7 +1,7 @@
 .CoursesPageContainer{
     margin: 50px 20px 0 20px;
     display: grid;
-    /*width: 100%;*/
+    width: 70%;
     flex-direction: column;
     justify-content: center;
     justify-items: left;
@@ -35,6 +35,19 @@
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.forceMiddle2{
+    display: grid;
+    justify-items: center;
+}
+
+.dddddddddd{
+    text-decoration: none;
+}
+
+.dddddddddd:hover{
+    color: #520252;
 }
 
 

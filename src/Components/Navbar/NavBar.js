@@ -24,7 +24,8 @@ export default function NavBar() {
     }
 
     const checkLocalStorage = localStorage.getItem("ent");
-    const isAuthenticated = checkLocalStorage === null || checkLocalStorage === "";
+    const isAuthenticated = false
+        // checkLocalStorage === null || checkLocalStorage === "";
 
 
 
@@ -181,7 +182,7 @@ export default function NavBar() {
 
 
                         <a className='link-d ffs'
-                           href="https://wa.me/message/6PVZWPUTB6KSN1">
+                           href="">
                             <li>Contact Us</li>
                         </a>
                         <Link className='link-d link-d ffs'  to='/aboutuspage'>
