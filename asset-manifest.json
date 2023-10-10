@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/OptimustTech/static/css/main.b13c2122.css",
+    "main.js": "/OptimustTech/static/js/main.95ce8cf1.js",
+    "static/js/787.0e5456d7.chunk.js": "/OptimustTech/static/js/787.0e5456d7.chunk.js",
+    "index.html": "/OptimustTech/index.html",
+    "main.b13c2122.css.map": "/OptimustTech/static/css/main.b13c2122.css.map",
+    "main.95ce8cf1.js.map": "/OptimustTech/static/js/main.95ce8cf1.js.map",
+    "787.0e5456d7.chunk.js.map": "/OptimustTech/static/js/787.0e5456d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b13c2122.css",
+    "static/js/main.95ce8cf1.js"
+  ]
+}
